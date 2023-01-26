@@ -19,9 +19,7 @@ function secti(a, b) {
 }
 
 function show_result() {
-let a = 5;
-let b = 4;
-document.querySelector("#vysledek").innerHTML = (a + b)
+document.querySelector("#vysledek").innerHTML = secti(4,5)
 }
 
 /**
