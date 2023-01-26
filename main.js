@@ -7,6 +7,7 @@
  * @param {int} b
  */
 
+
  function changeColor() {
   let square = document.querySelector(".ctverecek");
   square.style.backgroundColor="green"
@@ -17,8 +18,10 @@ function secti(a, b) {
   return c;
 }
 
-function show_result(a, b) {
-  document.querySelector("#vysledek").innerHTML = secti(a,b)
+function show_result() {
+let a = 5;
+let b = 4;
+document.querySelector("#vysledek").innerHTML = (a + b)
 }
 
 /**
