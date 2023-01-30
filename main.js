@@ -25,14 +25,8 @@ document.querySelector("#vysledek").innerHTML = secti(4,5)
 /**
  * Upozorní uživatele při spuštění.
  */
-function upozorni() {
-alert("Gratulace, právě jsi spustila tuto funkci!");
 
 /*Změna textu ve čtverečku*/
 
-let ctverecek = document.querySelector (".ctverecek");
-ctverecek.innerHTML = "Gratulace";
 
-console.log("Gratulace, právě jsi spustila tuto funkci!")
-}
 
